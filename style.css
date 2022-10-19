@@ -1,0 +1,19 @@
+*{
+    margin: 5px;
+    padding: 5px;
+}
+
+html{
+    font-size: 30px;
+}
+
+body{
+    background-color: #03989e;
+}
+
+.titulo{
+    text-align: center;
+    border: 3px solid;
+    width: 50%;
+    color: aliceblue;
+}
