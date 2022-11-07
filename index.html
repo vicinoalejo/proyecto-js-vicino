@@ -1,21 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto-vicino</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- css -->
+<link rel="stylesheet" href="style.css">
+
+  <title>Cotizador 3D</title>
 </head>
 <body>
-    
-    <header>
-        <div class="titulo">
-            <h1>COTIZADOR IMPRESIONES 3D</h1>
-        </div>
-    </header>
+
+  <section id="principal">
+    <article id="articulo">
+        <h1 id="titulo">COTIZADOR 3D</h1>
+    </article>
+    <br>
+    <article>
+        <label>Cliente:</label>
+        <input id="cliente" type="text" placeholder="nombre del cliente">
+        <br>
+        <label>Ingresar producto:</label>
+        <input id="producto" type="text" placeholder="nombre del producto">
+        <br>
+        <label>Ingresar precio (ARS) de filamento:</label>
+        <input id="precioFilamento" type="text" placeholder="precio del filamento">
+        <br>
+        <label>Ingresar peso (gr) de filamento:</label>
+        <input id="pesoFilamento" type="text" placeholder="peso de bobina de filamento">
+        <br>
+        <label>Ingresar peso (gr) del producto:</label>
+        <input id="pesoProducto" type="text" placeholder="peso del producto">
+        <br>
+        <label>Ingresar tiempo de impresion:</label>
+        <input id="tiempoImpresion" type="time" placeholder="tiempo de impresion">
+        <br>
+        <label>¿Cotizar en dolares? Marca si la respuesta es SI</label>
+        <input id="cotizacionDolares" type="checkbox" placeholder="si o no">
+
+    </article>
+</section>
 
 
-    <script src="index.js"></script>
+
+
+
+  <script src="index.js"></script>
 </body>
-    <link rel="stylesheet" href="style.css">
 </html>

@@ -1,16 +1,17 @@
 //Ingresar nombre del cliente
 
-let nomCliente = prompt("***COTIZADOR IMPRESIONES 3D***\n Ingresa nombre de cliente:");
+let nomCliente = prompt("***COTIZADOR 3D***\n Ingresa cliente:");
 
 console.log("Cliente: "+nomCliente);
 
 
-let clientes = "";
+let productos = "";
 for  (let index = 0; index < 1; index++){
-    clientes += prompt("Cliente n°: ")+"\n";
+    productos += prompt("Ingresa: Producto: ")+"\n";
 }
 
-console.log("Cliente n° "+clientes);
+console.log("Producto: "+productos);
+
 //Ingresamos datos para saber el costo del producto a imprimir
 
 function cotizar(){
