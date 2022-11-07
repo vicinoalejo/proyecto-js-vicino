@@ -1,3 +1,6 @@
+//DOM
+console.dir(document.body);
+
 //Ingresar nombre del cliente
 
 let nomCliente = prompt("***COTIZADOR 3D***\n Ingresa cliente:");
@@ -60,3 +63,13 @@ console.log(cliente1);
 console.log(cliente2);
 console.log(cliente3);
 
+let seccion = document.getElementById("principal");
+console.log(seccion.innerHTML);
+
+let titulo = document.getElementById("titulo");
+console.log(titulo.innerText);
+
+let campoCLiente = document.getElementById("cliente");
+let campoProducto = document.getElementById("producto");
+campoCLiente.value = "Jose Perez";
+campoProducto.value = "Soporte Celular";
